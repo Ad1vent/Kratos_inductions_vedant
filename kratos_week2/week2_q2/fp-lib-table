@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "TCA9548A_footprint") (type "KiCad") (uri "${KIPRJMOD}/TCA9548A_footprint.pretty") (options "") (descr ""))
+)
