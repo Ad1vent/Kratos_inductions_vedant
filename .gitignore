@@ -1,0 +1,15 @@
+# ROS build artifacts
+build/
+install/
+log/
+
+# VS Code
+.vscode/
+**/.vscode/
+
+# Ignore this package
+src/my_robot_controller/
+
+# Python cache
+**/__pycache__/
+*.pyc
