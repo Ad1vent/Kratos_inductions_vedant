@@ -122,6 +122,9 @@ class DoubleAckermannController(Node):
         drive_msg.data = [fl_vel, fr_vel, rl_vel, rr_vel]
         self.drive_pub.publish(drive_msg)
 
+
+
+
 def main(args=None):
     rclpy.init(args=args)
     node = DoubleAckermannController()
